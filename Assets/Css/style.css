@@ -41,6 +41,7 @@ h1 {
     text-align: center;
     color: #ffff;
     background-color: #4aaaa5;
+    border-radius: 2px;
 }
 
 .about-tab, .portfolio-tab, .contact-tab {
@@ -72,6 +73,7 @@ h1 {
      background-color: #ffff;
      padding: 10px;
      width: 650px;
+     border-radius: 20px;
  }
 
  .about-me-header, .portfolio, .contact {
@@ -89,6 +91,7 @@ h1 {
      height: 250px;
      width: 150px;
      margin-right: 20px;
+     border-radius: 10px;
 }
 
 /*end of about me*/
@@ -100,34 +103,59 @@ h1 {
     padding: 5px;
     width: 270px;
     background-color: #ffff;
+    border-radius: 20px;
 }
+/*Start of Contact Header*/
 
-.tabs {
-    height: 100%;
-    width: 100%;
-    margin-left: 60px;
-}
 .connect-header {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     color: #4aaaa5;
     padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
     border-bottom: 2px solid #dddddd;
 }
+/*End of Contact Header*/
+
+/*Start of Social Tabs FB, LinkedIn, GitHub*/
+
+.tabs {
+    width: 100%;
+    margin-left: 25px;
+}
+/*Start of Icons*/
 
 .img1, .img2, .img3 {
     float: left;
     margin-top: 5px;
+    width:33%;
 }
 
 .fb, .ln, .gh {
     height: 50px;
     width: 50px;
+    border-radius:30px;
+}
+/*End of Icons*/
+
+/*Hover Feature*/
+
+.fb:hover{
+    height: 55px;
+    width: 55px;
 }
 
+.ln:hover {
+    height: 55px;
+    width: 55px;
+}
+.gh:hover {
+    height: 55px;
+    width: 55px;
+}
+/*End of Social Tabs*/
 /*end side bar*/
 
 /*start of footer*/
@@ -162,6 +190,7 @@ h2 {
     height: 200px;
     width: 200px;
     margin-bottom: 40px;
+    border-radius: 10px;
 }
 
 .text-block1 {
@@ -175,6 +204,7 @@ h2 {
     width: 200px;
     text-align: center;
     font-size: 25px;
+    border-radius:10px;
 }
 
 .text-block2 {
@@ -189,6 +219,7 @@ h2 {
     width: 200px;
     text-align: center;
     font-size: 25px;
+    border-radius:10px;
 }
 
 .text-block3 {
@@ -202,6 +233,7 @@ h2 {
     width: 200px;
     text-align: center;
     font-size: 25px;
+    border-radius:10px;
 }
 
 .text-block4 {
@@ -216,6 +248,7 @@ h2 {
     width: 200px;
     text-align: center;
     font-size: 25px;
+    border-radius:10px;
 }
 
 .text-block5 {
@@ -229,6 +262,7 @@ h2 {
     width: 200px;
     text-align: center;
     font-size: 25px;
+    border-radius:10px;
 }
 /*float left*/
 
@@ -246,7 +280,7 @@ h2 {
 h3 {
     font-weight: bold;
 }
-.textbox{
+.contact-box{
     clear: both;
     margin: auto;
     width: 600px;
@@ -260,4 +294,27 @@ h3 {
     text-decoration: none;
     font-size: 16px;
     width: 15%;
+}
+
+
+input[type=text], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+}
+
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2d6764;
 }
