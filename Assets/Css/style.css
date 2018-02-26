@@ -18,11 +18,13 @@ body{
     background-color: #ffff;
     color: #4aaaa5;
     border-bottom: 5px solid #777777;
+    z-index: 1;
 }
 
 .header-content {
     width: 960px;
     margin: auto;
+    z-index: 1;
 }
 
 h1 {
